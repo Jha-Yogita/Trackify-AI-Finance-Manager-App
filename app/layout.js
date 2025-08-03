@@ -6,7 +6,7 @@ import { Toaster } from "sonner";
 import Link from "next/link";
 import { Github } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import ChatBot from "@/components/ChatBot";
+import ChatBot from "@/components/chatBot.jsx";
 
 const inter = Inter({ subsets: ["latin"] });
 
