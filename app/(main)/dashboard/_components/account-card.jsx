@@ -73,7 +73,7 @@ export function AccountCard({ account }) {
         </CardFooter>
       </Link>
       
-      {/* Visible Switch with dark styling */}
+      
       <div 
         className="absolute top-3 right-3 z-10"
         onClick={handleDefaultChange}

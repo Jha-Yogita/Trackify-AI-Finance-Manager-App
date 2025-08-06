@@ -13,10 +13,10 @@ import Link from "next/link";
 const LandingPage = () => {
   return (
     <div className="min-h-screen bg-white">
-      {/* Hero Section */}
+      
       <HeroSection />
 
-      {/* Features Section */}
+      
       <section id="features" className="py-20 bg-gradient-to-b from-white to-blue-50">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-center mb-12">
@@ -41,7 +41,7 @@ const LandingPage = () => {
         </div>
       </section>
 
-      {/* How It Works Section */}
+      
       <section className="py-20 bg-gradient-to-b from-blue-50 to-white">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-center mb-16">
@@ -63,7 +63,7 @@ const LandingPage = () => {
         </div>
       </section>
 
-      {/* Testimonials Section */}
+    
       <section id="testimonials" className="py-20 bg-white">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-center mb-16">
@@ -101,7 +101,7 @@ const LandingPage = () => {
         </div>
       </section>
 
-      {/* CTA Section */}
+      
       <section className="py-20 bg-gradient-to-r from-blue-600 to-cyan-500">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold text-white mb-4">

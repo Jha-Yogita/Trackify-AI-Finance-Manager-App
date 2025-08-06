@@ -30,7 +30,7 @@ export default function EmailTemplate({
               Here&rsquo;s your financial summary for {data?.month}:
             </Text>
 
-            {/* Main Stats */}
+            
             <Section style={styles.statsContainer}>
               <div style={styles.stat}>
                 <Text style={styles.text}>Total Income</Text>
@@ -48,7 +48,7 @@ export default function EmailTemplate({
               </div>
             </Section>
 
-            {/* Category Breakdown */}
+            
             {data?.stats?.byCategory && (
               <Section style={styles.section}>
                 <Heading style={styles.heading}>Expenses by Category</Heading>
@@ -63,7 +63,7 @@ export default function EmailTemplate({
               </Section>
             )}
 
-            {/* AI Insights */}
+            
             {data?.insights && (
               <Section style={styles.section}>
                 <Heading style={styles.heading}>Welth Insights</Heading>

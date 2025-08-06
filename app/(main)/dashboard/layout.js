@@ -6,15 +6,15 @@ import { Suspense } from "react";
 import { Button } from "@/components/ui/button";
 import { Plus } from "lucide-react";
 import { CreateAccountDrawer } from "@/components/create-account-drawer";
-import { Toaster } from "@/components/ui/sonner"; // For toast notifications
+import { Toaster } from "@/components/ui/sonner"; 
 
 export default function Layout() {
   return (
     <div className="px-4 py-6 md:px-6 md:py-8">
-      {/* Toast notifications for account updates */}
+    
       <Toaster position="top-right" />
       
-      {/* Header Section */}
+  
       <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-8">
         <div>
           <h1 className="text-3xl md:text-4xl font-bold tracking-tight">
@@ -40,7 +40,7 @@ export default function Layout() {
         </div>
       </div>
 
-      {/* Content with Suspense */}
+   
       <Suspense
         fallback={
           <div className="mt-8">

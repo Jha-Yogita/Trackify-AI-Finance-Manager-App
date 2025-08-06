@@ -1,4 +1,4 @@
-// /app/api/summary/route.js
+
 import { checkUser } from "@/lib/checkUser";
 import { db } from "@/lib/prisma";
 

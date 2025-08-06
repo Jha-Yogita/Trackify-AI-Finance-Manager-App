@@ -16,7 +16,7 @@ export default async function AccountPage({ params }) {
 
   return (
     <div className="space-y-8 px-4 sm:px-6 py-6 max-w-6xl mx-auto">
-      {/* Account Header Section */}
+    
       <div className="flex flex-col sm:flex-row gap-6 items-start sm:items-end justify-between p-6 bg-white dark:bg-gray-900 rounded-xl shadow-sm border border-gray-100 dark:border-gray-800">
         <div className="space-y-2">
           <h1 className="text-3xl sm:text-4xl font-bold tracking-tight text-gray-900 dark:text-white capitalize">
@@ -40,7 +40,7 @@ export default async function AccountPage({ params }) {
         </div>
       </div>
 
-      {/* Chart Section */}
+      
       <div className="bg-white dark:bg-gray-900 rounded-xl shadow-sm border border-gray-100 dark:border-gray-800 p-6">
         <h2 className="text-xl font-semibold mb-4 text-gray-900 dark:text-white">
           Transaction Overview
@@ -56,7 +56,7 @@ export default async function AccountPage({ params }) {
         </Suspense>
       </div>
 
-      {/* Transactions Table */}
+      
       <div className="bg-white dark:bg-gray-900 rounded-xl shadow-sm border border-gray-100 dark:border-gray-800 overflow-hidden">
         <div className="p-6 pb-0">
           <h2 className="text-xl font-semibold text-gray-900 dark:text-white">

@@ -131,7 +131,7 @@ export async function updateTransaction(id, data) {
 
     if (!user) throw new Error("User not found");
 
-    // Get original transaction to calculate balance change
+   
     const originalTransaction = await db.transaction.findUnique({
       where: {
         id,
@@ -288,7 +288,7 @@ export async function scanReceipt(file) {
   }
 }
 
-// Helper function to calculate next recurring date
+
 function calculateNextRecurringDate(startDate, interval) {
   const date = new Date(startDate);
 

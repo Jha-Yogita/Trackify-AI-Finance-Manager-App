@@ -31,7 +31,7 @@ const HeroSection = () => {
 
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col lg:flex-row items-center gap-12">
-          {/* Text content */}
+          
           <div className="lg:w-1/2 text-center lg:text-left">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -61,7 +61,7 @@ const HeroSection = () => {
               
               </div>
               
-              {/* Stats cards - now inline without reusable component */}
+              
               <div className="mt-12 grid grid-cols-3 gap-3">
                 <Card className="p-3 text-center bg-white/50 backdrop-blur-sm border border-gray-200/50 hover:border-blue-200 transition-colors">
                   <div className="flex justify-center mb-1">
@@ -90,7 +90,7 @@ const HeroSection = () => {
             </motion.div>
           </div>
           
-          {/* Image */}
+          
           <div className="lg:w-1/2">
             <motion.div
               ref={imageRef}

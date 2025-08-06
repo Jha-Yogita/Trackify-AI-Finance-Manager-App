@@ -1,4 +1,4 @@
-// components/ChatBox.jsx
+
 "use client";
 import { useEffect, useState } from "react";
 import { Bot, X, SendHorizonal } from "lucide-react";
@@ -69,7 +69,7 @@ export default function ChatBox() {
             transition={{ duration: 0.3 }}
             className="fixed bottom-32 right-8 w-[400px] max-w-[90vw] h-[540px] rounded-2xl backdrop-blur bg-zinc-900/90 border border-zinc-700 shadow-xl flex flex-col overflow-hidden z-50"
           >
-            {/* Header */}
+            
             <div className="px-4 py-3 bg-gradient-to-r from-indigo-500 to-purple-600 text-white flex items-center justify-between">
               <div className="flex gap-2 items-center">
                 <Bot className="w-5 h-5" />
@@ -78,7 +78,7 @@ export default function ChatBox() {
               <span className="text-xs bg-white/20 px-2 py-0.5 rounded-full">Beta</span>
             </div>
 
-            {/* Messages */}
+            
             <div className="flex-1 overflow-y-auto p-4 space-y-4">
               {messages.map((msg, idx) => (
                 <div
@@ -105,7 +105,7 @@ export default function ChatBox() {
               )}
             </div>
 
-            {/* Input */}
+            
             <div className="p-3 border-t bg-zinc-900 border-zinc-700">
               <div className="flex items-center gap-2">
                 <input

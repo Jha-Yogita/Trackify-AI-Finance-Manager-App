@@ -28,7 +28,7 @@ export default function RootLayout({ children }) {
           <ChatBot />
           <Toaster richColors />
 
-          {/* Minimal Footer */}
+          
           <footer className="bg-gradient-to-b from-blue-50 to-white py-8 border-t border-gray-200/50">
             <div className="container mx-auto px-4">
               <div className="flex flex-col md:flex-row items-center justify-between gap-4">

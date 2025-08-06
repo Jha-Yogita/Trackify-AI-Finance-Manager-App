@@ -253,7 +253,7 @@ export function AddTransactionForm({
         )}
       </div>
 
-      {/* Date */}
+      
       <div className="space-y-2">
         <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
           Date
@@ -289,7 +289,7 @@ export function AddTransactionForm({
         )}
       </div>
 
-      {/* Description */}
+      
       <div className="space-y-2">
         <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
           Description
@@ -304,7 +304,7 @@ export function AddTransactionForm({
         )}
       </div>
 
-      {/* Recurring Transaction Section */}
+      
       <div className="flex flex-row items-center justify-between rounded-lg border border-gray-300 dark:border-gray-600 p-4 bg-gray-50 dark:bg-gray-800/50">
         <div className="space-y-0.5">
           <label className="text-base font-medium text-gray-800 dark:text-gray-200">
@@ -321,7 +321,7 @@ export function AddTransactionForm({
         />
       </div>
 
-      {/* Recurring Interval */}
+      
       {isRecurring && (
         <div className="space-y-2">
           <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
@@ -369,7 +369,7 @@ export function AddTransactionForm({
         </div>
       )}
 
-      {/* Form Actions */}
+      
       <div className="flex gap-4 pt-4">
         <Button
           type="button"

@@ -44,10 +44,10 @@ export async function sendEmail({
       html,
     });
 
-    console.log("📩 Email sent:", info.messageId);
+    console.log(" Email sent:", info.messageId);
     return { success: true };
   } catch (err) {
-    console.error("❌ Failed to send email:", err);
+    console.error("Failed to send email:", err);
     return { success: false, error: err };
   }
 }

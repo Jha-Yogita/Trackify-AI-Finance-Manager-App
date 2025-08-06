@@ -231,7 +231,7 @@
   }
 }
 
-/* Add this class */
+
 .animate-gradient {
   background-size: 200% 200%;
   animation: gradientMove 3s ease infinite;
